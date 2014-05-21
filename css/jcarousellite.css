@@ -1,0 +1,82 @@
+.jCarouselLite
+{
+    text-align: center;
+    display: inline-block;
+}
+
+.carouselMain .prev:hover,.carouselMain .next:hover
+{
+    color: #111;
+}
+
+.carouselMain
+{
+    text-align: center;
+}
+
+.carouselMain .prev
+{
+    color: #444444;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 80px;
+    height: 23px;
+    margin-right: 15px;
+    margin-top: 50px;
+    vertical-align: top;
+    width: 23px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.carouselMain .next
+{
+    color: #444444;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 80px;
+    height: 23px;
+    margin-left: 15px;
+    margin-top: 50px;
+    vertical-align: top;
+    width: 23px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.jCarouselLite img
+{
+    width: 150px;
+    height: 150px;
+}
+
+.jCarouselLite ul
+{
+    display: inline-block;
+    padding: 0;
+    list-style-type:none;
+}
+
+.jCarouselLite ul li
+{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.jCarouselLite .item
+{
+    display: inline-block;
+    width: 200px;
+}
+
+.jCarouselLite .item div
+{
+    width: 185px;
+    margin: 10px auto 0;
+}
+
+.jCarouselLite .title
+{
+    margin-top: 10px;
+    display: inline-block;
+}
